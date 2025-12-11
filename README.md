@@ -1,5 +1,14 @@
 # Meu-Gentoo
 Uma documentação simples e didática para o uso do sistema operacional Gentoo Linux.
+----
+<details>
+<summary><strong>Índice</strong></summary>
+
+- [Início](#início)
+- [Ponto de partida](#ponto-de-partida)
+    - [Por onde começar](#por-onde-começar)
+
+</details>
 
 ## Início 
 * Esta documentação serve de guia tanto para a instalação quanto para o uso diário do Gentoo.
