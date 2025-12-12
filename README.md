@@ -7,6 +7,8 @@ Uma documentação simples e didática para o uso do sistema operacional Gentoo 
 - [Início](#início)
 - [Ponto de partida](#ponto-de-partida)
     - [Por onde começar](#por-onde-começar)
+- [O Portage](#o-portage)
+    - [O comando emerge](#emerge)
 
 </details>
 
@@ -27,3 +29,18 @@ Uma documentação simples e didática para o uso do sistema operacional Gentoo 
 * [Rede e Netifrc](https://wiki.gentoo.org/wiki/Handbook:AMD64/Full/Networking) ou [Network Manager](https://wiki.gentoo.org/wiki/NetworkManager) - *Configurando a internet.*
 * [Sujando as mãos](https://wiki.gentoo.org/wiki/Handbook:AMD64/Full/Working) - *Começando a usar o Gentoo.*
 * [Dominando o Portage](https://wiki.gentoo.org/wiki/Handbook:AMD64/Full/Portage) - *Entendendo o package manager.*
+
+## O Portage 
+* O *Portage* é o gerenciador de pacotes do Gentoo, ou melhor, o seu coração. Ele vai além de ser apenas o equivalente ao *Apt* (Debian), *Pacman* (Arch) ou *Dnf* (Fedora). Ele é a base total do sistema; é correto dizer que *"O Gentoo Linux é uma distro baseada no **Portage.**"* É com ele que você baixa seus pacotes e, principalmente, gerencia seu sistema.
+* Tratando-se de Gentoo, prepare-se para aprender uma lógica diferente. Ao contrário dos outros gerenciadores, que apenas entregam pacotes prontos, o Portage permite que você defina **como** quer seus programas.
+* Vamos lidar bastante com arquivos de texto. Pense nisso como escrever "leis" ou "contratos" para o sistema: você define as regras, e o Portage as obedece rigorosamente.
+
+### Emerge
+* O `emerge` é o comando que usamos para interagir com o Portage. Ele é a interface de linha de comando.
+* Pense assim: O **Portage** é o cérebro (o sistema de gerenciamento) e o **emerge** é a mão (a ferramenta que executa a ação).
+* O nome não é por acaso: ele "emerge" (traz à tona) o programa a partir do código-fonte, compilando e instalando tudo pronto para o seu uso.
+
+> [!TIP]
+> **Um tranquilizante para você:** Compilar no Gentoo é simples, é rotina.
+> É muito diferente de compilar manualmente (o clássico `make && make install`).
+> Aqui, o Portage cuida de todas as dependências e erros para você. Sente-se e aguarde.
